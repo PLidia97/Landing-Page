@@ -549,6 +549,7 @@ nav label {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: left;
 }
 .revew .star {
   width: 327px;
@@ -704,7 +705,7 @@ nav label {
 
 .data h3 {
   max-width: 268px;
-  margin-left: 68px;
+  text-align: left;
 }
 
 .data .btn-form {
@@ -718,6 +719,9 @@ nav label {
   border-radius: 5px;
   margin-top: 34px;
   margin-bottom: 21px;
+}
+.media .m {
+  margin-right: 16px;
 }
 
 .end {
@@ -836,14 +840,14 @@ nav label {
     justify-content: space-between;
   }
 
-  .finaList,
-  .data {
-    text-align: left;
+  .finaList {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
   }
 
-  .finaList h3 {
-    margin-left: 40px;
-    margin-bottom: 25px;
+  .finaList a {
+    color: var(--dark-blue);
   }
 
   .data .input-text {
@@ -1001,10 +1005,7 @@ nav label {
   .lastBlock {
     margin-left: 0;
   }
-  .revew {
-    display: ruby-text;
-    margin: 0;
-  }
+
   .third-revew {
     margin: 0;
   }
