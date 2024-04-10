@@ -853,6 +853,7 @@ nav label {
   .items {
     margin-top: 66px;
     display: flex;
+    justify-content: space-between;
     text-align: left;
   }
   .section-2 .item .img {
@@ -926,6 +927,7 @@ nav label {
 
   .join .title-button {
     text-align: left;
+    padding: 35px;
   }
 
   .join h2 {
