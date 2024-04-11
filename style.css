@@ -326,8 +326,9 @@ nav label {
   padding-bottom: 32px;
 }
 .chat-title p {
-  max-width: 420px;
+  max-width: 50%;
   display: inline-block;
+  font-weight: 500;
 }
 .chat-section .message {
   display: flex;
@@ -455,6 +456,9 @@ nav label {
   margin-bottom: 50px;
   padding-top: 40px;
 }
+.columns-title p {
+  font-weight: 500;
+}
 
 .allThree {
   text-align: center;
@@ -480,7 +484,7 @@ nav label {
   display: flex;
   flex-direction: column;
   gap: 4%;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .threeColumns .standard {
@@ -493,6 +497,7 @@ nav label {
   display: flex;
   flex-direction: column;
   gap: 4%;
+  margin-bottom: 32px;
 }
 .free span,
 .premium span {
@@ -551,10 +556,27 @@ nav label {
   justify-content: space-around;
   text-align: left;
 }
+.revew-title p {
+  max-width: 80%;
+  display: inline-block;
+  font-weight: 500;
+}
+.star .first-revew {
+  margin-bottom: 32px;
+}
 .revew .star {
   width: 327px;
   height: 236px;
   border: 1px solid #dedede;
+}
+
+.revew .first-revew {
+  margin-bottom: 32px;
+}
+.revew .second-revew {
+  margin-bottom: 32px;
+}
+.revew .third-revew {
   margin-bottom: 32px;
 }
 
@@ -626,6 +648,9 @@ nav label {
 
 .join-img {
   margin-left: -30px;
+}
+.join-img img {
+  height: 340px;
 }
 
 /*final*/
@@ -702,10 +727,9 @@ nav label {
 .data {
   text-align: center;
 }
-
-.data h3 {
-  max-width: 268px;
-  text-align: left;
+.data .h3 {
+  padding-top: 32px;
+  max-width: 68%;
 }
 
 .data .btn-form {
@@ -728,6 +752,28 @@ nav label {
   margin-bottom: 45px;
   margin-top: 44px;
   text-align: center;
+}
+.finaList {
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+.final .firstList {
+  margin-bottom: 32px;
+}
+.final .firstList a {
+  color: var(--dark-blue);
+}
+.final .secondList a {
+  color: var(--dark-blue);
+}
+.final .secondList {
+  margin-bottom: 20px;
+}
+
+.data h3 {
+  max-width: 59%;
+  display: inline-block;
 }
 
 @media (min-widt: 767px) {
@@ -834,16 +880,14 @@ nav label {
   .revew .star .dark {
     color: #737373;
   }
+  .revew-title p {
+    max-width: 44%;
+    display: inline-block;
+  }
 
   .final {
     display: flex;
     justify-content: space-between;
-  }
-
-  .finaList {
-    display: flex;
-    flex-direction: column;
-    gap: 4%;
   }
 
   .finaList a {
@@ -852,6 +896,12 @@ nav label {
 
   .data .input-text {
     box-shadow: 0px 2px 0px 0px #00000040;
+  }
+  .data {
+    text-align: left;
+  }
+  .data h3 {
+    text-align: left;
   }
 
   .items {
@@ -960,6 +1010,11 @@ nav label {
 
   .items .item {
     display: inline-block;
+  }
+}
+@media {
+  .block-title {
+    text-align: left;
   }
 }
 @media (min-width: 1200px) {
