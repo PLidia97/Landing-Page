@@ -326,8 +326,6 @@ nav label {
   padding-bottom: 32px;
 }
 .chat-title p {
-  max-width: 50%;
-  display: inline-block;
   font-weight: 500;
 }
 .chat-section .message {
@@ -445,6 +443,9 @@ nav label {
 
 .section-5 .dotts {
   display: none;
+}
+.margin1 {
+  margin-left: 24px;
 }
 
 /*section-6*/
@@ -858,6 +859,10 @@ nav label {
   .chat-section .message:nth-child(3) {
     order: 1;
   }
+  .chat-title p {
+    max-width: 50%;
+    display: inline-block;
+  }
 
   .contactButton {
     margin-bottom: 150px;
@@ -912,6 +917,7 @@ nav label {
   }
   .section-2 .item .img {
     margin: initial;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 900px) {
@@ -994,6 +1000,12 @@ nav label {
     top: 0;
   }
 }
+@media (min-width: 1122px) {
+  .block-title {
+    text-align: left;
+    margin-left: 15px;
+  }
+}
 
 @media (min-width: 1024px) {
   h1 {
@@ -1010,11 +1022,6 @@ nav label {
 
   .items .item {
     display: inline-block;
-  }
-}
-@media {
-  .block-title {
-    text-align: left;
   }
 }
 @media (min-width: 1200px) {
