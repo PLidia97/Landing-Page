@@ -931,6 +931,15 @@ nav label {
     box-shadow: none;
   }
 
+  .main-nav {
+    margin: 0;
+    margin-right: 20px;
+    flex-direction: row;
+  }
+  .main-nav a {
+    margin: 10px;
+  }
+
   .nav-content {
     display: block;
   }
@@ -1027,14 +1036,6 @@ nav label {
 @media (min-width: 1200px) {
   h1 {
     font-size: 40px;
-  }
-  .main-nav {
-    margin: 0;
-    margin-right: 20px;
-    flex-direction: row;
-  }
-  .main-nav a {
-    margin: 10px;
   }
 
   .section-2 {
